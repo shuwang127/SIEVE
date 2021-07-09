@@ -1,0 +1,148 @@
+body {
+	margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+}
+
+.header-image {
+	background: url("../img/voicesignal.png") no-repeat center;/* Use a tiling background image or a full width image - if you're using full width you will need to change no-repeat center center cover  */
+	background-position: top;
+	height: auto;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.headline {
+	padding: 38px 0;
+}
+.headline > .container > h1 {
+	font-weight: bold;
+	font-size: 130px;
+	color: #428bca;
+	background: rgba(255, 255, 255, 0.1);
+}
+.headline > .container > h2 {
+	font-size: 42px;
+	color: #428bca;
+	background: rgba(255, 255, 255, 0.2);
+}
+
+.featurette-divider {
+	margin: 25px 0;
+}
+.featurette {
+	overflow: hidden; 
+}
+
+.featurette-image.pull-left {
+	margin-right: 40px;
+}
+.featurette-image.pull-right {
+	margin-left: 40px;
+}
+.featurette-image1 {max-width: 57%;}
+.featurette-image1.pull-right{
+	margin-left: 30px;
+}
+.featurette-image2 {max-width: 75%;}
+.featurette-image2.pull-center{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.featurette-heading {
+	font-size: 45px;
+	color: #428bca;
+}
+.featurette-heading:hover {
+	color: #3071a9;
+}
+.featurette-heading2 {
+	font-size: 30px;
+	color: #3a87ad;
+}
+.featurette-heading2:hover {
+	color: #2d6987;
+}
+
+.question {
+	margin-top: 20px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #3a87ad;
+}
+.question:hover {
+	color: #2d6987;
+}
+
+footer {
+	margin: 30px 0;
+	color: #c0c0c0;
+}
+
+/* RESPONSIVE CSS */
+
+@media (max-width: 1200px) {
+	
+.headline > .container > h1 {font-size: 100px;}
+.headline > .container > h2 {font-size: 36px;}
+.featurette-divider {margin: 25px 0;}
+.featurette-image.pull-left {margin-right: 20px;}
+.featurette-image.pull-right {margin-left: 20px;}
+.featurette-heading {font-size: 35px;}
+.featurette-heading2 {font-size: 25px;}
+}
+
+@media (max-width: 991px) {
+
+.headline > .container > h1 {font-size: 80px;}
+.headline > .container > h2 {font-size: 36px;}
+.featurette-divider {margin: 40px 0;}
+.featurette-image {max-width: 100%;}
+.featurette-image.pull-left {margin-right: 10px;}
+.featurette-image.pull-right {margin-left: 10px;}
+.featurette-image1 {max-width: 70%;}
+.featurette-image1.pull-right{margin-left: 15px;}
+.featurette-image2 {max-width: 100%;}
+.featurette-heading {font-size: 30px;}
+.featurette-heading2 {font-size: 25px;}
+}
+
+@media (max-width: 768px) {
+	
+.container {margin: 0 15px;}
+.featurette-divider {margin: 40px 0;}
+.featurette-heading {font-size: 25px;}
+.featurette-heading2 {font-size: 20px;}
+}
+
+
+@media (max-width: 668px) {
+
+.headline > .container > h1 {font-size: 70px;}
+.headline > .container > h2 {font-size: 33px;}
+.featurette-divider {margin: 30px 0;}
+.featurette-image1 {max-width: 95%;}
+.featurette-image1.pull-right{margin-left: 0px;}
+}
+
+@media (max-width: 640px) {
+
+.headline {padding: 50px 0 50px 0;}
+.headline > .container > h1 {font-size: 60px;}
+.headline > .container > h2 {font-size: 30px;}
+
+}
+
+@media (max-width: 375px) {
+
+.featurette-divider {margin: 10px 0;}
+.featurette-image {max-width: 100%;}
+.featurette-image.pull-left {margin-right: 0; margin-bottom: 10px;}
+.featurette-image.pull-right {margin-left: 0; margin-bottom: 10px;}
+.featurette-image1 {max-width: 98%;}
+.featurette-image2 {max-width: 100%;}
+
+}
+
+@media (min-width: 768px) {
+.question {font-size: 24px;}
+}
